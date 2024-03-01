@@ -12,37 +12,29 @@ body {
 
 .title {
   background: #e3f4ff;
-  font-size: 1rem;
+  font-size: 16px;
   padding: 8px;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 16px 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
   padding: 8px;
+  text-align: center;
 
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 8px 24px;
   display: block;
-}
-
-.title,
-.content,
-.button-container {
-  margin-bottom: 8px;
-}
+  margin: 0 auto;
 }
