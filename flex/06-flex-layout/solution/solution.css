@@ -25,31 +25,6 @@ input {
   width: 400px;
 }
 
-/* SOLUTION */
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-button {
-  padding: 8px 16px;
-}
-
-.content {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 16px;
-}
-
-a {
-  color: #666;
-  text-decoration: none;
-}
-
 .header,
 .footer {
   display: flex;
@@ -61,6 +36,15 @@ a {
   background: #eee;
 }
 
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
 ul {
   display: flex;
   list-style: none;
@@ -68,3 +52,20 @@ ul {
   padding: 0;
   gap: 16px
 }
+
+/* SOLUTION */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
