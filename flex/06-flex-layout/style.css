@@ -32,3 +32,39 @@ ul {
   padding: 0;
 }
 
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 21px;
+  padding: 10px;
+}
+
+.content {
+  border: 10px solid purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-content: center; */
+}
+
+.input {
+  display: flex;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
